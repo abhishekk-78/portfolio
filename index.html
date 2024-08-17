@@ -1,0 +1,247 @@
+<!dOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="X-UA-Compatible" content="IE=edge">
+    <title> Personal Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+     <script src="https://kit.fontawesome.com/3cf92c7873.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logoo.jpg"  class="logo">
+                <ul>
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#services">Services</a></li>
+                    <li> <a href="#portfolio">Portfolio</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <span id="element"></span>
+                <h1> Hi,I'm <span> Abhishek Gupta</span> <br> from RJ college</h1>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+     <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['UI/UX Designer.', 'WEB Developer.' , 'App Developer.'],
+      typeSpeed: 50,
+    });
+  </script>
+    <!-------About----->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/photo.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="para">Hello this is Abhishek Gupta and I am a web developer and UI/UX designer from
+                        Mumbai, India. I currently studying at RJ College, where I am majoring in Computer Science.I
+                        have a strong passion for creating beautiful and user-friendly websites and applications. I am
+                        proficient in HTML, CSS, JavaScript, and React. I am also familiar with Figma and Sketch.
+
+                        <br><br>Here are some of skills and accomplishments:
+
+                       <br> <br>* Developed a web application for a local business that increased sales by 20%.
+                       <br> * Designed a user interface for a mobile app that was praised for its ease of use.
+                       <br> * Worked on a team to develop a website that won an award for its design.
+                        <br>* Presented  work at a local tech conference.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>WEB Development</span><br>Web Development</li>
+                            <li><span>App Development</span><br>Bulding Android/IOS apps</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Freelancer</span><br>Designing Web/App interfaces</li>
+                            <li><span>2020-2021</span><br>Web Development</li>
+                            <li><span>2022-2023</span><br>Bulding Android/IOS apps</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020</span><br>Completed 10th from SSC BOARD</li>
+                            <li><span>2022</span><br>Completed 12th from HSC BOARD</li>
+                            <li><span>2025</span><br>Completing BSC CS from RJ COLLEGE</li>
+
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!---------Services---->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">MY Services</h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>WEB Design</h2>
+                    <p>Transforming ideas into Engaging Online Experiences like website Design,UI/UX design,E-Commerce
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Creating Seamless Digital Experiences for Your Audience like User
+                        Research,Wireframing,Prototyping</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fas fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Creating Seamless Digital Experiences for Your Audience like User
+                        Research,Wireframing,Prototyping,Visual Design</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+    <!-------Portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">MY Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/WhatsApp Image 2023-08-11 at 4.26.10 AM (1).jpeg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to talented people around the world. Download it from the play store.</p>
+                        <a href="#">
+                            <i class="fa-solid fa-link"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/WhatsApp Image 2023-08-11 at 4.26.10 AM.jpeg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to talented people around the world. Download it from the play store.</p>
+                        <a href="#">
+                            <i class="fa-solid fa-link"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/WhatsApp Image 2023-08-11 at 4.26.11 AM.jpeg">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to talented people around the world. Download it from the play store.</p>
+                        <a href="#"> <i class="fa-solid fa-link"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://www.youtube.com/@vectorabhi640" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-----Contact-->
+    <div id="contact">
+        <div class="container">
+            <!--ab ham 2 column banaygnge -->
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-address-book"></i>abhishekgupta386464@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone"></i>93214*****</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100015985479535"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/abhishekgupta_78/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/Official_abhi07"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="#" class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button> 
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+         <p>Copyright <i class="fa-sharp fa-solid fa-copyright"></i> by  Abhishek Gupta </p>
+        </div>
+    </div>    
+        <script>
+            
+            var tablinks = document.getElementsByClassName("tab-links")
+            var tabcontents = document.getElementsByClassName("tab-contents")
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+            <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwKqHR1bWvz2x12-r9Wpz5M484vX7NqkubsNnBy8iTafRwibUqH0dzM1_mSCQ37z53zyQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{
+        msg.innerHTML = "Message Sent Sucessfully"
+        setTimeout(function(){
+            msg.innerHTML =""
+
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+
+</body>
+
+</html>
