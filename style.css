@@ -307,9 +307,22 @@ nav ul li a:hover::after{
     transform: translateY(-5px);
 }
 /*for CV*/
+
+/*for sending message*/
 .btn.btn2{
     display: inline-block;
     background: #ff004f;
+    font-size: 18px;
+    transition: opacity,0.15s;
+}
+.btn.btn2:hover{
+    opacity: 0.7;
+}
+.btn.btn2:active{
+    scale: 0.8;
+    opacity: 0.5;
+    box-shadow: 0 0 5px #ff004f , 0 0 15px #ff004f , 0 0 25px #ff004f , 0 0 75px #ff004f , 0 0 100px #ff004f , ;
+
 }
 /*decorating messge part*/
 .contact-right form{
