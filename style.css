@@ -13,12 +13,15 @@ body{
     color :white;
 }
 #header{
-    width: 100%;
+     width: 100%;
     height: 100vh;
-    background-image: url(IMG_20230805_203830.jpg);
+    background-image: url(background_gif.gif);
     background-size: cover;
-    background-position:center;
+    background-position:90% 80%;
     bottom: 30px;
+    background-size: 500px 450px;
+    background-repeat: no-repeat;
+
     
 }
 #element{
