@@ -238,6 +238,7 @@ nav ul li a:hover::after {
 .work img {
     width: 100%;
     border-radius: 15px;
+    display: block;
     height: 400px;
     transition: transform 0.5s;
 }
@@ -250,6 +251,8 @@ nav ul li a:hover::after {
     position: absolute;
     left: 0;
     bottom: 0;
+    display: -webkit-box; /* Fallback for old versions of Safari */
+    display: -ms-flexbox; /* Fallback for Microsoft Edge */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -263,6 +266,7 @@ nav ul li a:hover::after {
 .layer h3 {
     font-weight: 600;
     margin-bottom: 20px;
+    transition: height 0.5s;
 }
 
 .layer a {
