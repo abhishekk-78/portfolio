@@ -22,11 +22,11 @@ You can check out the live version of my portfolio https://abhishekk-78.github.i
 - **JavaScript**: Bringing life to the interactions.
 
 ## 📂 Project Structure
-/assets
-/images
-/styles
-/scripts
-index.html
+/assets <br/>
+/images <br/>
+/styles <br/>
+/scripts <br/>
+index.html <br/>
 README.md
 
 
