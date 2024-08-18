@@ -1,4 +1,4 @@
-#🌟 My Portfolio Website:
+#🌟 <b>My Portfolio Website<b>:
 Welcome to my digital corner! This repository houses the code for my personal portfolio website, built with pure HTML, CSS, and JavaScript. It's more than just a site—it's a reflection of my journey, skills, and the passion I have for web development.
 
 #🚀 About the Project:
