@@ -11,14 +11,9 @@ This portfolio is designed to showcase my projects, experiences, and skills in a
 - **Interactive Elements**: JavaScript-driven features for a dynamic user experience.
 - **Clean and Minimalistic**: A design that lets the content shine.
 
-## 🖼️ Screenshot
-
-![Website Screenshot](#)  
-*Add your website screenshot here to give visitors a sneak peek!*
-
 ## 🌐 Live Demo
 
-You can check out the live version of my portfolio [here](#).
+You can check out the live version of my portfolio https://abhishekk-78.github.io/portfolio/.
 
 ## 🛠️ Technologies Used
 
@@ -27,4 +22,20 @@ You can check out the live version of my portfolio [here](#).
 - **JavaScript**: Bringing life to the interactions.
 
 ## 📂 Project Structure
+/assets
+/images
+/styles
+/scripts
+index.html
+README.md
+
+
+## 🤝 Contributing
+
+Feel free to fork this repository and contribute! Whether it's improving the design, fixing bugs, or adding new features, I'm open to your ideas. Just make sure to open a pull request with a detailed description of your changes.
+
+## 📧 Contact
+
+If you'd like to get in touch, you can reach me at (ag1344587@gmail.com). I'm always open to discussing new projects, creative ideas, or potential collaborations!
+
 
